@@ -1,0 +1,37 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-image: linear-gradient(grey, silver);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+  }
+  
+  .container {
+  background: white;
+  width: 90%;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 10px;
+    background-color: #eee ;
+    border: 3px outset grey ;
+    border-radius: 25px ;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: aquamarine;
+  }
+  
+  
+  #result {
+    margin-top: 8px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #333;
+  
+  }
